@@ -5,4 +5,5 @@
   #txtInput
   (keyup)="onKeyPress(txtInput.value)"
   (keyup.enter)="emitValue(txtInput.value)"
+  [value]="initialValue"
 />
